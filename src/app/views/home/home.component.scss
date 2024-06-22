@@ -1,0 +1,52 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+main {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.pfp {
+    max-width: 25vw;
+}
+
+.tittle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    .tittle-text {
+        display: block;
+        font-weight: bold;
+        font-size: 8vw;
+        line-height: 1.2; 
+    }
+    
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    .skill{
+        margin: 10px;
+        border: solid 2px;
+        border-radius: 5px;
+        padding: 10px;
+        width: 80px;
+        height: 80px;
+        transition: transform 0.3s ease;
+        img{
+            width: 80px;
+            height: 80px;
+        }
+
+        &:hover {
+            transform: translateY(-10px); /* Efecto de levantarse al hacer hover */
+        }
+    }
+}
+
