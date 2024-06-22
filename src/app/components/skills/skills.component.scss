@@ -1,0 +1,42 @@
+.skills-container {
+    display: flex;
+    justify-content: center;
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        width: 750px;
+        justify-content: center;
+
+        .skill {
+            margin: 10px;
+            border: solid;
+            border-radius: 5px;
+            padding: 10px;
+            width: 50px;
+            height: 50px;
+
+            img {
+                width: 50px;
+                height: 50px;
+            }
+
+            &:hover {
+                transition: transform 0.3s ease;
+                transform: translateY(-15px);
+            }
+        }
+    }
+}
+
+.sub-tittle {
+    justify-content: center; 
+    text-align: center; 
+    display: flex;
+
+    .sub-tittle-text {
+        display: block;
+        font-size: 5vw;
+        line-height: 1.2;
+    }
+}
