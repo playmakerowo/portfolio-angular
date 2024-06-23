@@ -13,7 +13,6 @@ import 'aos/dist/aos.css';
   styleUrl: './app.component.scss'
 })
 export class AppComponent implements OnInit{
-  title = 'portafolio';
 
   ngOnInit() {
     AOS.init();
