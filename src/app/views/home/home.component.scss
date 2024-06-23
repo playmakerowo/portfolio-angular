@@ -14,23 +14,4 @@ main {
     max-width: 25vw;
 }
 
-.tittle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 50%;
 
-    .tittle-text {
-        background-image: url(../../../assets/img/tittle.gif);
-        background-size: 100% 100%; //para que el el texo use toda la imagen
-        color: transparent;
-        -moz-background-clip: text; //recortar el texto para que se vea el fondo Mozilla Firefox 
-        -webkit-background-clip: text; //recortar el texto para que se vea el fondo Otros
-        font-size: 120px;
-        margin: 10px 0;
-        display: block;
-        font-weight: bold;
-        font-size: 10vw;
-        line-height: 1.2;
-    }
-}
