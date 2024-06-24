@@ -14,6 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 50%;
+    margin-bottom: 90px;
 
     .tittle-text {
         background-image: url(assets/img/tittle.gif);
@@ -34,11 +35,11 @@ body {
     justify-content: center; 
     text-align: center; 
     display: flex;
-    margin-top: 60px;
+    margin-top: 90px;
 
     .sub-tittle-text {
         display: block;
-        font-size: 3rem;
+        font-size: 60px;
         line-height: 1.2;
     }
 }
