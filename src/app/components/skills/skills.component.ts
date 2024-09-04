@@ -27,6 +27,7 @@ export class SkillsComponent {
     "csharp",
     "dotnet",
     "bitbucket",
-    "git"
+    "git",
+    "postman"
   ]
 }

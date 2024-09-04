@@ -9,14 +9,14 @@ body {
     color: white;
 }
 
-.tittle {
+.title {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 50%;
 
-    .tittle-text {
-        background-image: url(assets/img/tittle.gif);
+    .title-text {
+        background-image: url(assets/img/title.gif);
         background-size: 100% 100%; //para que el el texo use toda la imagen
         color: transparent;
         -moz-background-clip: text; //recortar el texto para que se vea el fondo Mozilla Firefox 
@@ -28,13 +28,13 @@ body {
     }
 }
 
-.sub-tittle {
+.sub-title {
     justify-content: center; 
     text-align: center; 
     display: flex;
     margin-top: 90px;
 
-    .sub-tittle-text {
+    .sub-title-text {
         display: block;
         font-size: 50px;
         line-height: 1.2;

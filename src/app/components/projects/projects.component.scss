@@ -50,11 +50,19 @@
         display: flex;
         flex-direction: column;
 
-
         h3 {
             font-size: 40px;
             padding-bottom: 10px;
             border-bottom: 1px solid #ccc;
+        }
+        
+        p{
+            font-size: 20px;
+        }
+
+        li {
+            font-size: 20px;
+            margin-top: 5px;
         }
 
         .buttons {
@@ -62,11 +70,12 @@
             display: flex;
             justify-content: center;
             border-top: 1px solid #ccc;
-
+            
             a {
                 margin-top: 2%;
                 width: 98%;
                 margin-right: 5px;
+                font-size: 18px;
             }
         }
 
